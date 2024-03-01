@@ -23,7 +23,7 @@ class NetworkManager: NetworkProtocol {
         
         var urlRequest = URLRequest(url: url, cachePolicy: .returnCacheDataElseLoad)
         let headers = [
-            "X-RapidAPI-Key" : "e9a13e3120msh3d12339056f538fp17c6b7jsnb5bd6a898cb4",
+            "X-RapidAPI-Key" : "",
             "X-RapidAPI-Host" : "bitcoinaverage-global-ethereum-index-v1.p.rapidapi.com"
         ]
         
@@ -35,7 +35,7 @@ class NetworkManager: NetworkProtocol {
                 guard let httpResponse = response as? HTTPURLResponse else {
                     throw NetworkError.invalidResponse
                 }
-                debugPrint(httpResponse.statusCode)
+                print(httpResponse.statusCode)
                 return data
             }
             .decode(type: T?.self, decoder: JSONDecoder())
