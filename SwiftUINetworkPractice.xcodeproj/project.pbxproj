@@ -12,10 +12,16 @@
 		1896CD382B5A8F9900F6FE64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1896CD372B5A8F9900F6FE64 /* Assets.xcassets */; };
 		1896CD3B2B5A8F9900F6FE64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1896CD3A2B5A8F9900F6FE64 /* Preview Assets.xcassets */; };
 		1896CD3D2B5A8F9900F6FE64 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896CD3C2B5A8F9900F6FE64 /* Persistence.swift */; };
-		1896CD402B5A8F9900F6FE64 /* SwiftUINetworkPractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1896CD3E2B5A8F9900F6FE64 /* SwiftUINetworkPractice.xcdatamodeld */; };
 		1896CD4A2B5A8F9900F6FE64 /* SwiftUINetworkPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896CD492B5A8F9900F6FE64 /* SwiftUINetworkPracticeTests.swift */; };
 		1896CD542B5A8F9900F6FE64 /* SwiftUINetworkPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896CD532B5A8F9900F6FE64 /* SwiftUINetworkPracticeUITests.swift */; };
 		1896CD562B5A8F9900F6FE64 /* SwiftUINetworkPracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896CD552B5A8F9900F6FE64 /* SwiftUINetworkPracticeUITestsLaunchTests.swift */; };
+		1896CD642B5A900300F6FE64 /* CoinResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896CD632B5A900300F6FE64 /* CoinResponse.swift */; };
+		1896CD672B5A90F500F6FE64 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896CD662B5A90F500F6FE64 /* NetworkManager.swift */; };
+		1896CD6C2B5A92F400F6FE64 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896CD6B2B5A92F400F6FE64 /* HomeViewModel.swift */; };
+		1896CD6E2B5AC2C000F6FE64 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896CD6D2B5AC2C000F6FE64 /* DBManager.swift */; };
+		1896CD712B5AC3DA00F6FE64 /* SwiftUINetworkPractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1896CD6F2B5AC3DA00F6FE64 /* SwiftUINetworkPractice.xcdatamodeld */; };
+		1896CD742B5AC41C00F6FE64 /* Example+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896CD722B5AC41C00F6FE64 /* Example+CoreDataClass.swift */; };
+		1896CD752B5AC41C00F6FE64 /* Example+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896CD732B5AC41C00F6FE64 /* Example+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,12 +48,18 @@
 		1896CD372B5A8F9900F6FE64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1896CD3A2B5A8F9900F6FE64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1896CD3C2B5A8F9900F6FE64 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		1896CD3F2B5A8F9900F6FE64 /* SwiftUINetworkPractice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUINetworkPractice.xcdatamodel; sourceTree = "<group>"; };
 		1896CD452B5A8F9900F6FE64 /* SwiftUINetworkPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUINetworkPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1896CD492B5A8F9900F6FE64 /* SwiftUINetworkPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUINetworkPracticeTests.swift; sourceTree = "<group>"; };
 		1896CD4F2B5A8F9900F6FE64 /* SwiftUINetworkPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUINetworkPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1896CD532B5A8F9900F6FE64 /* SwiftUINetworkPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUINetworkPracticeUITests.swift; sourceTree = "<group>"; };
 		1896CD552B5A8F9900F6FE64 /* SwiftUINetworkPracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUINetworkPracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1896CD632B5A900300F6FE64 /* CoinResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinResponse.swift; sourceTree = "<group>"; };
+		1896CD662B5A90F500F6FE64 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		1896CD6B2B5A92F400F6FE64 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		1896CD6D2B5AC2C000F6FE64 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		1896CD702B5AC3DA00F6FE64 /* SwiftUINetworkPractice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUINetworkPractice.xcdatamodel; sourceTree = "<group>"; };
+		1896CD722B5AC41C00F6FE64 /* Example+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Example+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1896CD732B5AC41C00F6FE64 /* Example+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Example+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +111,12 @@
 			isa = PBXGroup;
 			children = (
 				1896CD332B5A8F9800F6FE64 /* SwiftUINetworkPracticeApp.swift */,
-				1896CD352B5A8F9800F6FE64 /* ContentView.swift */,
+				1896CD682B5A929C00F6FE64 /* Home */,
+				1896CD652B5A90DD00F6FE64 /* Manager */,
+				1896CD622B5A8FD400F6FE64 /* Models */,
 				1896CD372B5A8F9900F6FE64 /* Assets.xcassets */,
 				1896CD3C2B5A8F9900F6FE64 /* Persistence.swift */,
-				1896CD3E2B5A8F9900F6FE64 /* SwiftUINetworkPractice.xcdatamodeld */,
+				1896CD6F2B5AC3DA00F6FE64 /* SwiftUINetworkPractice.xcdatamodeld */,
 				1896CD392B5A8F9900F6FE64 /* Preview Content */,
 			);
 			path = SwiftUINetworkPractice;
@@ -131,6 +145,58 @@
 				1896CD552B5A8F9900F6FE64 /* SwiftUINetworkPracticeUITestsLaunchTests.swift */,
 			);
 			path = SwiftUINetworkPracticeUITests;
+			sourceTree = "<group>";
+		};
+		1896CD622B5A8FD400F6FE64 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1896CD632B5A900300F6FE64 /* CoinResponse.swift */,
+				1896CD762B5AC42900F6FE64 /* DatabaseModels */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1896CD652B5A90DD00F6FE64 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				1896CD662B5A90F500F6FE64 /* NetworkManager.swift */,
+				1896CD6D2B5AC2C000F6FE64 /* DBManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		1896CD682B5A929C00F6FE64 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1896CD6A2B5A92DA00F6FE64 /* ViewModel */,
+				1896CD692B5A92C900F6FE64 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1896CD692B5A92C900F6FE64 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1896CD352B5A8F9800F6FE64 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1896CD6A2B5A92DA00F6FE64 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1896CD6B2B5A92F400F6FE64 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1896CD762B5AC42900F6FE64 /* DatabaseModels */ = {
+			isa = PBXGroup;
+			children = (
+				1896CD722B5AC41C00F6FE64 /* Example+CoreDataClass.swift */,
+				1896CD732B5AC41C00F6FE64 /* Example+CoreDataProperties.swift */,
+			);
+			path = DatabaseModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,10 +329,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1896CD752B5AC41C00F6FE64 /* Example+CoreDataProperties.swift in Sources */,
+				1896CD742B5AC41C00F6FE64 /* Example+CoreDataClass.swift in Sources */,
+				1896CD672B5A90F500F6FE64 /* NetworkManager.swift in Sources */,
 				1896CD3D2B5A8F9900F6FE64 /* Persistence.swift in Sources */,
+				1896CD6C2B5A92F400F6FE64 /* HomeViewModel.swift in Sources */,
+				1896CD712B5AC3DA00F6FE64 /* SwiftUINetworkPractice.xcdatamodeld in Sources */,
 				1896CD362B5A8F9800F6FE64 /* ContentView.swift in Sources */,
 				1896CD342B5A8F9800F6FE64 /* SwiftUINetworkPracticeApp.swift in Sources */,
-				1896CD402B5A8F9900F6FE64 /* SwiftUINetworkPractice.xcdatamodeld in Sources */,
+				1896CD6E2B5AC2C000F6FE64 /* DBManager.swift in Sources */,
+				1896CD642B5A900300F6FE64 /* CoinResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,12 +670,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		1896CD3E2B5A8F9900F6FE64 /* SwiftUINetworkPractice.xcdatamodeld */ = {
+		1896CD6F2B5AC3DA00F6FE64 /* SwiftUINetworkPractice.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				1896CD3F2B5A8F9900F6FE64 /* SwiftUINetworkPractice.xcdatamodel */,
+				1896CD702B5AC3DA00F6FE64 /* SwiftUINetworkPractice.xcdatamodel */,
 			);
-			currentVersion = 1896CD3F2B5A8F9900F6FE64 /* SwiftUINetworkPractice.xcdatamodel */;
+			currentVersion = 1896CD702B5AC3DA00F6FE64 /* SwiftUINetworkPractice.xcdatamodel */;
 			path = SwiftUINetworkPractice.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
