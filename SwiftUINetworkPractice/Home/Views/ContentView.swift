@@ -32,6 +32,9 @@ struct ContentView: View {
                 }
                 
             }
+            .onAppear{
+                homeVM.fetchData(NetworkManager())
+            }
             .navigationTitle("Coin Prices")
             .frame(maxWidth: .infinity)
             .frame(maxHeight: .infinity)

@@ -13,13 +13,10 @@ class HomeViewModel: ObservableObject {
     @Published var marketsData: [Coin] = [] 
     
     private var canecellables = Set<AnyCancellable>()
+
     
-    init(){
-        fetchData()
-    }
-    
-    private func fetchData() {
-        NetworkManager.shared.fetchData(type: CoinResponse.self, urlStr: "https://bitcoinaverage-global-ethereum-index-v1.p.rapidapi.com/indices/local/ticker/all?crypto=ETH&fiat=USD%2CEUR")
+    func fetchData(_ networkProvider: NetworkProtocol) {
+        networkProvider.fetchData(type: CoinResponse.self, urlStr: "https://bitcoinaverage-global-ethereum-index-v1.p.rapidapi.com/indices/local/ticker/all?crypto=ETH&fiat=USD%2CEUR")
             .receive(on: DispatchQueue.main)
             .sink { completion in
                 switch completion {

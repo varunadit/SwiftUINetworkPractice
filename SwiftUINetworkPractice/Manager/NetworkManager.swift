@@ -15,15 +15,6 @@ protocol NetworkProtocol {
 
 class NetworkManager: NetworkProtocol {
     
-    static let shared: NetworkManager = {
-        let networkInstance = NetworkManager()
-        return networkInstance
-    }()
-    
-    private init() {
-        
-    }
-    
     func fetchData<T: Codable>(type: T.Type, urlStr: String) ->  AnyPublisher<T?, Error> {
         guard let url = URL(string: urlStr) else {
             return Fail(error: NetworkError.invalidURL)
